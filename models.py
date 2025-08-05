@@ -1,0 +1,3 @@
+# Pydantic and ORM models for jobs and subscribers
+
+# ...models will be defined here...

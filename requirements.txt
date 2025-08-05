@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+playwright
+sqlalchemy
+pydantic
+python-dotenv
+apscheduler
+tenacity
+httpx
+pytest

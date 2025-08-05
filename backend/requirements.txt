@@ -1,7 +1,0 @@
-# requirements for scraping SIMO with Playwright and BeautifulSoup
-playwright
-beautifulsoup4
-requests
-fastapi
-apscheduler
-bs4

@@ -1,0 +1,3 @@
+# Pytest tests for FastAPI endpoints and scraping
+
+# ...test cases will be implemented here...
