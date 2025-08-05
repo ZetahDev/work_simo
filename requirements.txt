@@ -1,10 +1,36 @@
-fastapi
-uvicorn
-playwright
-sqlalchemy
-pydantic
-python-dotenv
-apscheduler
-tenacity
-httpx
-pytest
+# Core dependencies
+fastapi>=0.104.1
+uvicorn[standard]>=0.24.0
+python-multipart>=0.0.6
+python-jose[cryptography]>=3.3.0
+
+# Database
+sqlalchemy>=2.0.23
+alembic>=1.13.0
+
+# HTTP client for scraping
+aiohttp>=3.9.0
+
+# Data processing and validation
+pydantic>=2.5.0
+pandas>=2.1.4
+
+# Scheduler
+APScheduler>=3.10.4
+
+# Telegram Bot
+python-telegram-bot>=20.7
+
+# Retry mechanism
+tenacity>=8.2.3
+
+# Testing
+pytest>=7.4.3
+pytest-asyncio>=0.21.1
+httpx>=0.25.2
+
+# Environment variables
+python-dotenv>=1.0.0
+
+# PostgreSQL driver (for production)
+psycopg2-binary>=2.9.9
